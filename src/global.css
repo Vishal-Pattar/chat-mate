@@ -1,4 +1,6 @@
 :root{
-    --color-bg:rgb(124, 136, 201);
+    --color-bg:rgb(21, 38, 134);
     --color-text-primary:rgb(241, 242, 243);
+    --color-text-secondry:rgb(35, 36, 37);
+    --color-bg-footer:rgb(177, 177, 184);
 }
