@@ -1,0 +1,17 @@
+.header__container{
+    width: 100vw;
+    height: 10vh;
+    background-color: var(--color-bg);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.header__title{
+    padding:1rem;
+    align-items: center;
+    justify-content: left;
+    text-align: justify;
+    font-size: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--color-text-primary);
+}
