@@ -1,6 +1,7 @@
 :root{
-    --color-bg:rgb(21, 38, 134);
-    --color-text-primary:rgb(241, 242, 243);
-    --color-text-secondry:rgb(35, 36, 37);
-    --color-bg-footer:rgb(177, 177, 184);
+    --color-bg-primary:  #0B0C10;
+    --color-bg-accent: #1F2833;
+    --color-text-primary: #C5C6C7;
+    --color-secondary: #66FCF1;
+    --color-secondary-accent: #45A29E;
 }
