@@ -1,16 +1,37 @@
 .displaybox__container {
-    height: 70vh;
+    height: 82vh;
     width: 100vw;
     background-color: var(--color-bg-accent);
     position: relative;
-}
+    left: 0px;
 
-.displaybox__sendermessage {
+}
+.displaybox__message{
+    height: 100%;
+    width: 60%;
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    transform: translateX(-50%);
+    background-color: green;
+}
+.usermessage
+{
     padding: 1rem;
     align-items: center;
-    justify-content: left;
-    text-align: justify;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: var(--color-text-primary);
+    display: inline-flex;
+   
 }
+.displaybox__sendermessage {
+    text-align: left;
+    background-color: rgb(125, 129, 129);
+}
+.displaybox__recievermessage
+ {
+    text-align:right;
+    background-color: rgb(80, 163, 163);
+ }   
