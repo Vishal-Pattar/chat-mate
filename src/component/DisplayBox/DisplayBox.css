@@ -1,0 +1,16 @@
+.displaybox__container {
+    height: 70vh;
+    width: 100vw;
+    background-color: var(--color-bg);
+    position: relative;
+}
+
+.displaybox__sendermessage {
+    padding: 1rem;
+    align-items: center;
+    justify-content: left;
+    text-align: justify;
+    font-size: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--color-text-primary);
+}
