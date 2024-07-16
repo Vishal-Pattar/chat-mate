@@ -1,7 +1,7 @@
 .displaybox__container {
     height: 70vh;
     width: 100vw;
-    background-color: var(--color-bg);
+    background-color: var(--color-bg-accent);
     position: relative;
 }
 

@@ -2,7 +2,7 @@
     width: 100vw;
     height: 10vh;
     background-color: var(--color-bg-primary);
-    position: absolute;
+    position: relative;
     top: 0px;
     left: 0px;
 }
