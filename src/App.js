@@ -6,8 +6,10 @@ import './global.css';
 function App() {
   return (
     <div className="App">
-     <Header/>
-    </div>
+     <Header/>  
+     <Footer/>
+     
+   </div>
   );
 }
 
