@@ -1,15 +1,16 @@
 .footer__container{
     width: 100vw;
     height: 10vh;
-    background-color: var(--color-bg-footer);
+    background-color: var(--color-bg-primary);
     position: absolute;
     bottom: 0px;
     left: 0px;
 }
+
 .footer__title{
     padding:1rem;
     align-items: center;
     font-size: 1.0rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: var(--color-text-secondary);
+    color: var(--color-text-primary);
 }
