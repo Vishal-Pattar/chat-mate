@@ -2,9 +2,9 @@ import React from 'react'
 import './TextArea.css'
 const TextArea = () => {
   return (
-        <div class="wrapper">
-        <input type="text" placeholder="Enter your message"/>
-        <button>
+        <div className="textarea__container">
+        <input type="text" placeholder="Enter your message" className='textarea__input'/>
+        <button className='textarea__btn'>
             <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
                 viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
                 stroke-linejoin="round">

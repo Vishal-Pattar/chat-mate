@@ -2,37 +2,39 @@
     box-sizing: border-box;
 }
 
-button {
+.textarea__btn {
     border: none;
     cursor: pointer;
 }
 
-button:hover {
+.textarea__btn:hover {
     opacity: 0.8;
 }
 
-input {
+.textarea__input {
     color: white;
     font-size: 1.1rem;
     font-weight: 500;
 }
 
-input:focus {
+.textarea__input:focus {
     outline: 2px solid white;
 }
 
-input::placeholder {
+.textarea__input::placeholder {
     color: rgba(255, 255, 255, 0.6);
 }
 
 /* Button on top of the Input */
-.wrapper {
-    width: 400px;
+.textarea__container {
+    width: 500px;
     max-width: 100%;
     position: relative;
+    left: 30%;
+    bottom: 80px;
 }
 
-.wrapper input {
+.textarea__container .textarea__input {
     background: rgba(255, 255, 255, 0.1);
     border: 2px solid white;
     border-radius: 50px;
@@ -40,7 +42,7 @@ input::placeholder {
     width: 100%;
 }
 
-.wrapper button {
+.textarea__container .textarea__btn {
     background: white;
     border-radius: 50px;
     aspect-ratio: 1;
