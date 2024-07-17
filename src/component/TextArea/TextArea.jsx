@@ -1,8 +1,9 @@
+// src/component/TextArea/TextArea.jsx
 import React, { useState, useEffect, useRef } from 'react';
 import './TextArea.css';
 import { IoMdSend } from "react-icons/io";
 
-const TextArea = () => {
+const TextArea = ({ sendMessage }) => {
   const [content, setContent] = useState('');
   const textAreaRef = useRef(null);
 
@@ -17,6 +18,13 @@ const TextArea = () => {
     setContent(e.target.value);
   };
 
+  const handleSend = () => {
+    if (content.trim()) {
+      sendMessage(content);
+      setContent('');
+    }
+  };
+
   return (
     <div className="textarea__container">
       <div className='textarea__box'>
@@ -29,7 +37,7 @@ const TextArea = () => {
           value={content}
           onChange={handleChange}
         ></textarea>
-        <button className='textarea__btn'>
+        <button className='textarea__btn' onClick={handleSend}>
           <IoMdSend className='textarea__sendicon' />
         </button>
       </div>
