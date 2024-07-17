@@ -50,6 +50,50 @@ const Message = () => {
             <span className='user_message_div_bottom'>5:37 PM <IoCheckmarkDoneSharp className='double_tick' /></span>
           </div>
         </div>
+        <div className='message__reciever user_message'>
+          <div>
+            Thanks! Have a great day.
+          </div>
+        </div>
+        <div className='message__sender user_message'>
+          <div>
+            You too!
+            <span className='user_message_div_bottom'>5:37 PM <IoCheckmarkDoneSharp className='double_tick' /></span>
+          </div>
+        </div>
+        <div className='message__reciever user_message'>
+          <div>
+            Thanks! Have a great day.
+          </div>
+        </div>
+        <div className='message__sender user_message'>
+          <div>
+            You too!
+            <span className='user_message_div_bottom'>5:37 PM <IoCheckmarkDoneSharp className='double_tick' /></span>
+          </div>
+        </div>
+        <div className='message__reciever user_message'>
+          <div>
+            Thanks! Have a great day.
+          </div>
+        </div>
+        <div className='message__sender user_message'>
+          <div>
+            You too!
+            <span className='user_message_div_bottom'>5:37 PM <IoCheckmarkDoneSharp className='double_tick' /></span>
+          </div>
+        </div>
+        <div className='message__reciever user_message'>
+          <div>
+            Thanks! Have a great day.
+          </div>
+        </div>
+        <div className='message__sender user_message'>
+          <div>
+            You too!
+            <span className='user_message_div_bottom'>5:37 PM <IoCheckmarkDoneSharp className='double_tick' /></span>
+          </div>
+        </div>
       </div>
     </div>
   )
