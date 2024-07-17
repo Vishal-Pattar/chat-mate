@@ -1,51 +1,66 @@
+.textarea__container {
+    width: 70vw;
+    position: absolute;
+    bottom: 8vh;
+    background: url("https://img.freepik.com/premium-vector/seamless-pattern-with-different-social-media-icons_405287-75.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1721088000&semt=ais_user");
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.textarea__box {
+    max-height: 8vh;
+    width: 40vw;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    align-items: flex-end; /* Align items to the end of the container */
+    justify-content: space-between;
+    display: flex;
+    border-radius: 1.5rem;
+    background-color: var(--color-white);
+}
+
+.textarea__input {
+    line-height: 1.5rem;
+    padding: 0.75rem 1rem;
+    max-height: 20vh;
+    width: 100%;
+    appearance: none;
+    outline: none;
+    position: relative;
+    box-sizing: border-box;
+    color: var(--color-bg-accent);
+    font-size: 1.25rem;
+    font-weight: 500;
+    resize: none;
+    border-radius: 1.5rem;
+    border: none;
+    margin: 0.15rem;
+    overflow: hidden;
+    transition: height 0.2s ease-out; /* Smooth transition for height */
+}
+
+.textarea__input::placeholder {
+    color: var(--color-text-primary);
+}
+
 .textarea__btn {
+    border-radius: 100%;
+    aspect-ratio: 1;
+    position: relative;
     border: none;
     cursor: pointer;
+    box-sizing: border-box;
+    background-color: var(--color-text-primary);
+    margin: 0.25rem;
+    align-self: flex-end; /* Align the button to the end of the container */
 }
 
 .textarea__btn:hover {
     opacity: 0.8;
 }
 
-.textarea__input {
-    color: white;
-    font-size: 1.1rem;
-    font-weight: 500;
-}
-
-.textarea__input:focus {
-    outline: 2px solid white;
-}
-
-.textarea__input::placeholder {
-    color: rgba(255, 255, 255, 0.6);
-}
-
-/* Button on top of the Input */
-.textarea__container {
-    width: 500px;
-    max-width: 100%;
-    position: relative;
-    left: 30%;
-    bottom: 80px;
-    box-sizing: border-box;
-}
-
-.textarea__container .textarea__input {
-    background: rgba(255, 255, 255, 0.1);
-    border: 2px solid white;
-    border-radius: 50px;
-    padding: 1rem 2rem;
-    width: 100%;
-}
-
-.textarea__container .textarea__btn {
-    background: white;
-    border-radius: 50px;
-    aspect-ratio: 1;
-    height: 80%;
-    
-    position: absolute;
-    top: 10%;
-    right: 5px;
+.textarea__sendicon {
+    font-size: 1.5rem;
+    padding: 0.25rem;
 }
